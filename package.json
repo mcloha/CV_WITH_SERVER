@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "simple server",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "server"
+  ],
+  "author": "Timbo Alvarez",
+  "license": "ISC"
+}

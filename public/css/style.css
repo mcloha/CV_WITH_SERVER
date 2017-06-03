@@ -1,0 +1,181 @@
+/*===================Main CSS===================*/
+body{
+    display: flex;
+    flex-direction: column;
+    margin:0px auto;
+    width: 980px;
+}
+section{
+    display: flex;
+    margin:0px auto;
+}
+h1,h2,h3{
+    text-transform: uppercase;
+}
+*{
+    font-size:16px;
+    font-family: 'Chau Philomene One';
+    letter-spacing: 1px;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin-top: 15px;
+}
+/*===================Main CSS===================*/
+
+/*====================Header====================*/
+#header{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color:#1e1e1e;
+    color:rgb(162,162,162);
+}
+#upper{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom:2px solid #717171;
+}
+#social-networks{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+#social-networks * {
+    text-align: center;
+}
+#right{
+    padding: 20px;
+    flex:1;
+}
+#left{
+    display: flex;
+    flex-flow:row wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin:0px auto;
+    border-right:2px solid #717171;
+    flex:1;
+}
+#contact{
+    margin-top:-50px;
+    display: flex;
+    border-bottom:2px solid #717171;
+}
+#aboutMe{
+    margin: 0px auto;
+    max-width: 500px;
+}
+#logo{
+    border-radius: 1000px;
+    order:-1;
+}
+#basicInfo{
+    order:1;
+}
+#left h1+h1{
+    margin-top:-35px;
+    text-transform: uppercase;
+    color:#d07628;
+}
+#left h3{
+    margin-top:-20px;
+    text-transform: uppercase;
+}
+/*====================Header====================*/
+
+/*===================Expirience=================*/
+#expirience {color:black;}
+
+#expirience h1{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#exp{
+    display: flex;
+    flex-direction: column;
+}
+#exp h2{
+    color:#128fbf;
+    margin-top:40px;
+}
+#work{
+    display: flex;
+    margin-top:-30px;
+    padding: 10px;
+}
+#skillup{
+    padding: 20px;
+    background-color: #6ed0f5;
+}
+#skilldown{
+    padding: 20px;
+    background-color: #eddc46;
+}
+#bars{display: flex;}
+#perSkills{
+    display: flex;
+}
+/*===================Expirience=================*/
+
+/*====================Education=================*/
+#education{
+    margin-top: -30px;
+    display: flex;
+    flex-direction: column;
+    background-color: #e4e2e3;
+    color:black;
+}
+#education h1{
+   margin-left: 10px;
+}
+#edu{
+    display: flex;
+    flex-direction: row;
+}
+#leftEdu{
+    min-width: 150px;
+}
+#edu h2{
+    color:#128fbf;
+    margin-top:30px;
+}
+/*====================Education=================*/
+
+/*=====================Hobbies==================*/
+#hobbies{
+    display: flex;
+    justify-content: space-between;
+    min-width: 980px;
+}
+#hob{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    min-width: 600px;
+}
+#lang{
+    padding: 20px;
+    background-color: #f0eeef;
+}
+#lang ul{
+    padding: 16px;
+    margin-top: -30px;
+}
+#hobbiesUL{display: flex; }
+#hobbiesUL * i {
+    font-size: 28px;
+}
+#hobbiesUL * {   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    align-items: center;
+}
+#langBars{display: flex;}
+/*=====================Hobbies==================*/
